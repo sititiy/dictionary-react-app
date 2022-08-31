@@ -1,0 +1,27 @@
+a {
+  text-decoration: none;
+  color: #f9cccc;
+}
+.App {
+  text-align: center;
+}
+
+.DictionarySearch input {
+  border: 2px solid #ee6666;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.Footer footer {
+  font-size: 10px;
+}
+
+.Footer a {
+  text-decoration: none;
+  color: #f9cccc;
+}
+.Footer .github-link:hover {
+  text-decoration: underline;
+}

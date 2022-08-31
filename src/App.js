@@ -1,10 +1,16 @@
 import "./App.css";
+import Footer from "./Footer";
+import DictionarySearch from "./DictionarySearch";
 
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header text-center mt-5">hello</header>
-      
+      <div className="container">
+        <main className="mt-5">
+          <DictionarySearch />
+        </main>
+        <Footer />
+      </div>
     </div>
   );
 }
