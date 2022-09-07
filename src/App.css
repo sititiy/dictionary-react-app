@@ -77,6 +77,18 @@
   margin-top: 5px;
 }
 
+.Synonyms {
+  margin-top: -20px;
+}
+
+.Synonyms li {
+  font-size: 13px;
+  opacity: 0.7;
+  display: inline-block;
+  padding-right: 10px;
+  line-height: 1;
+}
+
 .Footer footer {
   font-size: 10px;
   margin-bottom: 5px;
