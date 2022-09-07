@@ -12,8 +12,6 @@ export default function DictionarySearch(props) {
   }
 
   function handleResponse(response) {
-    //  console.log(response.data[0]);
-
     setResult(response.data[0]);
   }
 
