@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <main className="mt-5">
-          <DictionarySearch />
+          <DictionarySearch defaultword="happy" />
         </main>
         <Footer />
       </div>

@@ -1,9 +1,17 @@
-a {
-  text-decoration: none;
-  color: #f9cccc;
-}
 .App {
   text-align: center;
+}
+
+.DictionarySearch section {
+  background-color: #edd7bd;
+  border-radius: 10px;
+  padding: 29px 20px;
+  margin: 30px 0;
+  box-shadow: 5px 5px rgba(145, 145, 145, 0.5);
+}
+
+.DictionarySearch h2 {
+  margin-bottom: 25px;
 }
 
 .DictionarySearch input {
@@ -14,8 +22,64 @@ a {
   padding: 10px;
 }
 
+.DictionarySearch .hint {
+  font-size: 10px;
+}
+
+.Results h2 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #b41e22;
+}
+
+.Phonetic {
+  height: 42px;
+  margin-top: 13px;
+}
+
+.Phonetic a {
+  font-size: 15px;
+  color: #ee6666;
+  text-decoration: none;
+  border: 1.5px solid #ee6666;
+  border-radius: 100px;
+  padding: 10px;
+  margin-right: 10px;
+  transition: all 150ms ease-in-out;
+}
+
+.Phonetic a:hover {
+  background-color: #ee6666;
+  color: #edd7bd;
+}
+
+.Phonetic .phonetic-text {
+  opacity: 0.8;
+}
+
+.Meaning h4 {
+  font-size: 25px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.Meaning .definition {
+  font-size: 17px;
+  padding: 0 40px;
+  margin: 0 90px;
+}
+
+.Meaning .example {
+  opacity: 0.9;
+  font-style: italic;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
 .Footer footer {
   font-size: 10px;
+  margin-bottom: 5px;
 }
 
 .Footer a {
